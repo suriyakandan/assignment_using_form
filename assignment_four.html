@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <table cellspacing="10" cellpadding="0" border="2" width="100%" bgcolor="slateblue">
+            <tr>
+                <td width="33%">
+                    <p align="center">
+                        Login
+                    </p>
+                </td>
+                <td width="33%" align="center">
+                    <p>
+                        Signup
+                    </p>
+                </td>
+                <td width="33%" align="center">
+                    <p>
+                        Download
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </head>
+    <body>
+        <table cellspacing="10" cellpadding="0" border="1" width="100%" bgcolor="aqua">
+            <tr>
+                <td width="33%" align="center">
+                    <form method="post"><br>
+                        <br>
+                        <input type="text" name="txtusername" placeholder="Username" required><br>
+                        Forgot Username?<br><br>
+                        <input type="password" name="password" placeholder="Enter your password" required><br>
+                        Forgot Password?<br><br>
+                        <input type="button" value="Login"><br><br>
+                    </form>
+                </td>
+                <td width="33%" align="center">
+                    <form method="get"><br>
+                        <br>
+                        <input type="text" name="txtusername" placeholder="Enter your name" required><br>
+                        <br>
+                        <input type="email" name="txtemail" placeholder="Enter your email address" required><br>
+                        <br>Enter your contact number:<br>
+                        <input type="tel" name="txtphonenumber" placeholder="Include +91" required><br>Get OTP<br>
+                        <br>
+                        <input type="text" name="txtotp" placeholder="Enter the OTP" required><br><br>
+                        <input type="button" value="Verify"><br>
+                        <br>
+                        <input type="password" name="password" placeholder="Enter your password"required><br>
+                        <br>
+                        <input type="password" name="password" placeholder="Confirm your password" required><br>
+                        <br>
+                        <input type="button" value="Signup"><br><br>
+                    </form>
+                </td>
+                <td width="33%" align="center">
+                    <form method="get"><br>
+                        <br>Enter the movie or song name here:<br>
+                        <input type="search" name="txtsearch"><br>
+                        <input type="button" value="Search"><br><br>
+                        <p align="left">
+                        Annatthe<image src="download_logo.png" width="15" height="15"></image><br>
+                        Bigil<image src="download_logo.png" width="15" height="15"></image><br>
+                        Cobra<image src="download_logo.png" width="15" height="15"></image><br>
+                        Don<image src="download_logo.png" width="15" height="15"></image><br>
+                        Etharkum Thuninthavan<image src="download_logo.png" width="15" height="15"></image><br>
+                        Valimai<image src="download_logo.png" width="15" height="15"></image><br>
+                        Vikram<image src="download_logo.png" width="15" height="15"></image><br>
+                        </p>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="10" cellpadding="0" border="2" width="100%" bgcolor="slateblue">
+            <tr>
+                <td>
+                    <p align="center">
+                        Booking Airline
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <table table cellspacing="10" cellpadding="0" border="0" width="100%" bgcolor="aqua">
+            <tr>
+                <td width="50%">
+                    <p align="right">
+                        <br><br><br>
+                        Depart:<br>
+                        Return:<br>
+                        Travellers:<br>
+                        Class:<br>
+                    </p>
+                    <br>
+                    <br>
+                </td>
+                <td width="50%" aligh="left"><br>
+                    <br>
+                    <form method="get">
+                        <input type="text" name="txtfrom" placeholder="From" required><br>
+                        <input type="text" name="txtto" placeholder="To" required><br>
+                        <input type="date" name="calendardepart" required><br>
+                        <input type="date" name="calendarreturn" required><br>
+                        <input type="number" name="numbercount" required><br>
+                        <select name="selclass">
+                            <option>Economy</option>
+                            <option>Business</option>
+                            <option>First Class</option>
+                            <option>Premium Economy</option>
+                        </select>
+                        <input type="checkbox" name="chknonstoponly" value="Non_Stop_Only">Non-Stop Only<br>
+                        <input type="button" value="Search">
+                    </form><br>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Passenger Details:
+                </td>
+            </tr>
+        </table>
+        <table table cellspacing="10" cellpadding="0" border="0" width="100%" bgcolor="aqua">
+            <tr>
+                <td>
+                    <form method="get" align="right">
+                        Gender:<input type="radio" name="rdgender" value="male" required>Male
+                        <input type="radio" name="rdgender" value="female" required>Female
+                        <input type="radio" name="rdgender" value="trans" required>Trans<br><br>
+                        First & Middle Name:<input type="text" name="txtfirstname" required><br><br>
+                        Last Name:<input type="text" name="txtlastname" required><br><br>
+                        Meal:<select>
+                            <option>Baby Meal</option>
+                            <option>Hindu Veg Meal</option>
+                            <option>Hindu Non Veg Meal</option>
+                            <option>Muslim Meal</option>
+                            <option>Kosher Meal</option>
+                            <option>Jain Meal</option>
+                        </select><br><br>
+                        Wheelchair:<select>
+                            <option>Required</option>
+                            <option>Not Required</option>
+                        </select><br><br>
+                        Nationality:<select>
+                            <option>country 1</option>
+                            <option>country 2</option>
+                            <option>country 3</option>
+                            <option>country 4</option>
+                            <option>country 5</option>
+                            <option>country 6</option>
+                        </select><br><br>
+                        Date of birth:<input type="date" name="dtdob"><br><br>
+                        Passport No:<input type="text" name="txtpassportnumber" required><br><br>
+                        Passport Issuing Country:<input type="text" name="txtpassportissuecountry" required><br><br>
+                        Passport Expiry:<input type="date" name="dtpassportexpiry"><br>
+                        <p>If Frequent traveller (Frequent Flyer Number is subject to airline acceptance)</p>
+                        Frequent Flyer Airline:<select>
+                            <option>Airline 1</option>
+                            <option>Airline 2</option>
+                        </select><br><br>
+                        Frequent Flyer No:<input type="text" name="txtfrequentflyernumber"><br><br>
+                        <input type="submit"><br><br><br><br>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="10" cellpadding="0" border="2" width="100%" bgcolor="slateblue">
+            <tr>
+                <td>
+                    <p align="center">
+                        Booking Bus/Train
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <table table cellspacing="10" cellpadding="0" border="0" width="100%" bgcolor="aqua">
+            <tr>
+                <td width="50%">
+                    <p align="right">
+                        <br><br><br><br>
+                        Depart:<br>
+                        Return:<br>
+                        Travellers:<br>
+                        Class:<br>
+                    </p>
+                    <br>
+                    <br>
+                </td>
+                <td width="50%" aligh="left"><br>
+                    <br>
+                    <form method="get">
+                        <input type="text" name="txtfrom" placeholder="From" required><br>
+                        <input type="text" name="txtto" placeholder="To" required><br>
+                        <input type="date" name="calendardepart" required><br>
+                        <input type="date" name="calendarreturn" required><br>
+                        <input type="number" name="numbercount" required><br>
+                        <select name="selclass">
+                            <option>Semi Sleepers A/c</option>
+                            <option>Semi Sleepers non A/c</option>
+                            <option>Sleepers A/c</option>
+                            <option>Sleepers non A/c</option>
+                        </select><br>
+                        <input type="button" value="Search">
+                    </form><br>
+                    <br>
+                </td>
+            </tr>
+        </table>
+        <table table cellspacing="10" cellpadding="0" border="0" width="100%" bgcolor="aqua">
+            <tr>
+                <td>
+                    Passenger Details:
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <form method="get">
+                        <input type="text" name="txtname" placeholder="Name" required><br>
+                        <input type="number" name="numage" placeholder="Age"><br>
+                        Gender:<input type="radio" name="rdgender" value="male" required>Male
+                        <input type="radio" name="rdgender" value="female" required>Female
+                        <input type="radio" name="rdgender" value="trans" required>Trans<br><br><br><br>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Contact Details:
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <form>
+                        <input type="email" name="email" placeholder="Email Address" required><br>
+                        Phone No:<br>
+                        <input type="text" name="txtpnone" placeholder="Include +91" required><br><br>
+                        <input type="submit">
+                    </form><br><br>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="10" cellpadding="0" border="2" width="100%" bgcolor="slateblue">
+            <tr>
+                <td>
+                    <p align="center">
+                        Booking Hotel
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <table table cellspacing="10" cellpadding="0" border="0" width="100%" bgcolor="aqua">
+            <tr>
+                <td width="50%">
+                    <p align="right">
+                        <br>
+                        Check In:<br>
+                        Check Out:<br>
+                        No of Guest:<br>
+                        Room Type:<br>
+                    </p>
+                    <br>
+                    <br>
+                </td>
+                <td width="50%" aligh="left"><br>
+                    <br>
+                    <form method="get">
+                        <input type="date" name="calendarcheckin" required> after 12pm<br>
+                        <input type="date" name="calendarcheckout" required> before 12pm<br>
+                        <input type="number" name="numbercount" required> 2 guest per room<br>
+                        <select name="seltype">
+                            <option>A/c</option>
+                            <option>Non A/c</option>
+                        </select><br>
+                        <input type="button" value="Search">
+                    </form><br>
+                    <br>
+                </td>
+            </tr>
+        </table>
+        <table table cellspacing="10" cellpadding="0" border="0" width="100%" bgcolor="aqua">
+            <tr>
+                <td>
+                    Guest Details:
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <form method="get">
+                        <input type="text" name="txtname" placeholder="Name" required><br>
+                        <input type="number" name="numage" placeholder="Age"><br>
+                        Gender:<input type="radio" name="rdgender" value="male" required>Male
+                        <input type="radio" name="rdgender" value="female" required>Female
+                        <input type="radio" name="rdgender" value="trans" required>Trans<br><br><br><br>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Contact Details:
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <form>
+                        <input type="email" name="email" placeholder="Email Address" required><br>
+                        Phone No:<br>
+                        <input type="text" name="txtpnone" placeholder="Include +91" required><br><br>
+                        <input type="submit">
+                    </form><br><br>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="10" cellpadding="0" border="2" width="100%" bgcolor="slateblue">
+            <tr>
+                <td width="50%">
+                    <p align="center">
+                        Booking Movie
+                    </p>
+                </td>
+                <td width="50%">
+                    <p align="center">
+                        Booking Cab
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="10" cellpadding="0" border="1" width="100%" bgcolor="aqua">
+            <tr>
+                <td width="50%" align="center">
+                    <form method="get"><br>
+                        <br>
+                        Movie Name:
+                        <select>
+                            <option>Movie 1</option>
+                            <option>Movie 2</option>
+                            <option>Movie 3</option>
+                            <option>Movie 4</option>
+                        </select><br><br>
+                        Select Theatre:
+                        <select>
+                            <option>Theatre 1</option>
+                            <option>Theatre 2</option>
+                            <option>Theatre 3</option>
+                            <option>Theatre 4</option>
+                        </select><br><br>
+                        Show Date:<br>
+                        <input type="date" name="dtshowdate" required><br><br>
+                        Seat:
+                        <input type="number" name="nooftickets" required><br><br>
+                        Contact:
+                        <input type="text" name="txtcontact" placeholder="Include +91" required><br><br>
+                        Email:
+                        <input type="email" name="email" required><br><br>
+                        <input type="button" value="Book Ticket"><br><br><br>
+                    </form>
+                </td>
+                <td width="50%" align="center">
+                    <form method="get"><br>
+                        <br>
+                        Booking Name:<br>
+                        <input type="text" name="txtname" required><br><br>
+                        Contact:<br>
+                        <input type="text" name="txtcontact" placeholder="Include +91" required><br><br>
+                        Pickup Location:<br>
+                        <input type="text" name="txtpickuppoint" required><br><br>
+                        Drop Location:<br>
+                        <input type="text" name="txtdroppoint" required><br><br>
+                        Pickup Date&Time:<br>
+                        <input type="datetime-local" name="dtpickupdate" required><br><br>
+                        <input type="button" value="Book Now"><br><br><br>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="10" cellpadding="0" border="2" width="100%" bgcolor="slateblue">
+            <tr>
+                <td width="50%">
+                    <p align="center">
+                        Booking Exam
+                    </p>
+                </td>
+                <td width="50%">
+                    <p align="center">
+                        Payment
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="10" cellpadding="0" border="1" width="100%" bgcolor="aqua">
+            <tr>
+                <td width="50%" align="center">
+                    <form method="get"><br>
+                        <br>
+                        Student Name:<br>
+                        <input type="text" name="txtname" required><br><br>
+                        Contact:<br>
+                        <input type="text" name="txtcontact" placeholder="Include +91" required><br><br>
+                        Email:<br>
+                        <input type="email" name="txtemail" required><br><br>
+                        Select Module:<br>
+                        <select>
+                            <option>Module 1</option>
+                            <option>Module 2</option>
+                            <option>Module 3</option>
+                            <option>Module 4</option>
+                        </select><br><br>
+                        Select Exam Date&Time:<br>
+                        <input type="datetime-local" name="dtexamdate" required><br><br>
+                        <input type="button" value="Book Exam Now"><br><br><br>
+                    </form>
+                </td>
+                <td width="50%" align="center">
+                    <form method="get"><br>
+                        <br>
+                        Name on card:<br>
+                        <input type="text" name="txtnameoncard" required><br><br>
+                        Card Number:<br>
+                        <input type="text" name="txtcardnumber" required><br><br>
+                        Exp Date:<br>
+                        <input type="text" name="txtexpdate" placeholder="MM/YY" required><br><br>
+                        CVV:<br>
+                        <input type="password" name="pswdcvv" maxlength="3" required><br><br>
+                        <input type="button" value="Pay Now"><br><br><br>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
